@@ -5,9 +5,17 @@ import os
 import sys
 import fasttext as ft
 import pandas as pd
+import re
 
+# def scrape_page(name,lang, page_limit=None):
+#     # filename = 'data/page_data/'+str(name) + "_posts.csv"
+#     # fbs.write_posts_to_csv(name, page_limit=page_limit,filename=filename)
+#     print('started scraping page : ', name)
+#     fbs.write_posts_to_csv(name, page_limit=page_limit)
+#     print('finished scraping page : ', name)
 
 def scrape_page(name,lang, page_limit=None):
+    print('started scraping page : ', name)
     df=pd.DataFrame(fbs.get_posts(name, page_limit=page_limit)) 
     page_posts_df=df[['text']].dropna()
 
@@ -81,6 +89,7 @@ def remove_emoji(string):
 
 if __name__ == '__main__':
 
+
     import argparse
     parser = argparse.ArgumentParser()
 
@@ -111,17 +120,17 @@ if __name__ == '__main__':
 
     lid = ft.load_model("./seeding/src/langdetect72.ftz")
     # scrape pages one by one
-
     os.chdir(data_folder_name)
 
     for page in page_names:
         try:
             # with concurrent.futures.ProcessPoolExecutor() as executor:
             #     executor.map(scrape_page, page_names)
-                scrape_page(page,args.langauge)
+          scrape_page(page,args.langauge)
         except Exception as e:
-            # print("Exception: {}".format(e))
+            print("This is a personal page, thus skipped")
             pass
+
 
 
 

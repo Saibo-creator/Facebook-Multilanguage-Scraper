@@ -1,0 +1,7 @@
+selenium
+beautifulsoup4
+tqdm
+pandas 
+fasttext
+nltk
+facebook_scraper

@@ -11,9 +11,14 @@ date_prev=None
 date_now=`date -r ./data/page_links.txt`
 while [ "$date_prev" != "$date_now" ]; 
 do 	
-	# sleep 3m
+	sleep 60
 	python page_scraper.py ${lang}
 	date_prev=$date_now
 	date_now=`date -r ./data/page_links.txt`
 done
+
+
+
+
+
 
