@@ -9,7 +9,12 @@ Facebook Multi-Language  Scraper
 
 ## Table of Contents
 
-[TOC]
+- [Table of Contents](#table_of_contents)
+- [Preambule](#preambule)
+- [Language supported](#language_supported)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Appendix and FAQ](#appendix_and_faq)
 
 ## Preambule
 
@@ -69,7 +74,7 @@ pip install pythainlp
 ```
 
 
-Usage
+## Usage
 ---
 
 ```gherkin=
