@@ -1,5 +1,39 @@
 # Facebook Multi-Language  Scraper
+===
+![downloads](https://img.shields.io/github/downloads/atom/atom/total.svg)
+![build](https://img.shields.io/appveyor/ci/:user/:repo.svg)
+![chat](https://img.shields.io/discord/:serverId.svg)
 
+## Table of Contents
+
+[TOC]
+
+
+This Scraper is capable of scraping public posts in a **specific language(supports 72 languages) on Facebook**. For other social networks such as Twitter, the language can be passed as an option via its offical API, but Facebook doesn't provide with this option. 
+
+## Languages Supported
+
+|**cmn**| **deu**| **rus**| **fra**|
+|-----|------|------|------|
+|**eng**| **jpn**| **spa**| **ita**|
+|**kor**| **vie**| **nld**| **epo**|
+|**por**| **tur**| **heb**| **hun**|
+|**ell**| **ind**| **ara**| **fin**|
+|**bul**| **yue**| **swe**| **ukr**|
+|**bel**| **ces**| **wuu**| **nob**|
+|**kat**| **pol**| **lat**| **isl**|
+|**afr**| **ron**| **bre**| **tat**|
+|**yid**| **uig**| **srp**| **dan**|
+|**pes**| **slk**| **eus**| **tgl**|
+|**hin**| **lit**| **ben**| **cat**|
+|**hrv**| **tha**| **mkd**| **glg**|
+|**vol**|**jbo** |**toki**| **ina**|
+|**nds**| **tlh**| **ido**| **oci**|
+|**ile**| **aze**| **tuk**| **kab**|
+|**ber**| **cor**| **avk**| **mar**|
+|**mhr**| **lfn**| **run**| **gos**|
+
+*cmn is mandarin chinese
 
 ## Installation
 
@@ -12,65 +46,11 @@ sudo apt-get install chromium-browser
 sudo apt-get install chromium-chromedriver
 ```
 
-**Note**: the code assumes the chromedriver is available in the same directory or is on the PATH. You can change the `executable_path` parameter if you want another directory.
+**Note**: the code assumes the chromedriver is available in the same directory or is on the PATH. You can change the `executable_path` parameter if you have chromedriver in another directory.
 
 
 
-### Language Options:
 
-Afrikaans 	Albanian 	Alemannic 
-Amharic 	Arabic 	Aragonese 
-Armenian 	Assamese 	Asturian 
-Azerbaijani 	Bashkir 	Basque 
-Bavarian 	Belarusian 	Bengali 
-Bihari 	Bishnupriya Manipuri 	Bosnian 
-Breton 	Bulgarian 	Burmese 
-Catalan 	Cebuano 	Central Bicolano 
-Chechen 	Chinese 	Chuvash 
-Corsican 	Croatian 	Czech 
-Danish 	Divehi 	Dutch 
-Eastern Punjabi 	Egyptian Arabic 	Emilian-Romagnol 
-English 	Erzya 	Esperanto 
-Estonian 	Fiji Hindi 	Finnish 
-French 	Galician 	Georgian 
-German 	Goan Konkani 	Greek 
-Gujarati 	Haitian 	Hebrew 
-Hill Mari 	Hindi 	Hungarian 
-Icelandic 	Ido 	Ilokano 
-Indonesian 	Interlingua 	Irish 
-Italian 	Japanese 	Javanese 
-Kannada 	Kapampangan 	Kazakh 
-Khmer 	Kirghiz 	Korean 
-Kurdish (Kurmanji) 	Kurdish (Sorani) 	Latin 
-Latvian 	Limburgish 	Lithuanian 
-Lombard 	Low Saxon 	Luxembourgish 
-Macedonian 	Maithili 	Malagasy 
-Malay 	Malayalam 	Maltese 
-Manx 	Marathi 	Mazandarani 
-Meadow Mari 	Minangkabau 	Mingrelian 
-Mirandese 	Mongolian 	Nahuatl 
-Neapolitan 	Nepali 	Newar 
-North Frisian 	Northern Sotho 	Norwegian (Bokmål) 
-Norwegian (Nynorsk) 	Occitan 	Oriya 
-Ossetian 	Palatinate German 	Pashto 
-Persian 	Piedmontese 	Polish 
-Portuguese 	Quechua 	Romanian 
-Romansh 	Russian 	Sakha 
-Sanskrit 	Sardinian 	Scots 
-Scottish Gaelic 	Serbian 	Serbo-Croatian 
-Sicilian 	Sindhi 	Sinhalese 
-Slovak 	Slovenian 	Somali 
-Southern Azerbaijani 	Spanish 	Sundanese 
-Swahili 	Swedish 	Tagalog 
-Tajik 	Tamil 	Tatar 
-Telugu 	Thai 	Tibetan 
-Turkish 	Turkmen 	Ukrainian 
-Upper Sorbian 	Urdu 	Uyghur 
-Uzbek 	Venetian 	Vietnamese 
-Volapük 	Walloon 	Waray 
-Welsh 	West Flemish 	West Frisian 
-Western Punjabi 	Yiddish 	Yoruba 
-Zazaki 	Zeelandic 
 
 
 ### prerequisites
